@@ -1,0 +1,257 @@
+body{
+    font-family: Arial;
+    font-size: 14px;
+}
+img{
+    max-width: 100%;
+}
+.main{
+    margin-top: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    width: 25%;
+    max-width: 250px;
+    padding: 12px 16px;
+    border: 1px solid transparent;
+    border-right: 1px solid #EBEBEB;
+    border-radius: 3px;
+}
+.item:hover{
+    border:1px solid #7EB105;
+    box-shadow: 2px 0px 10px 0px rgba(0,0,0,0.2);
+}
+.item-promo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.promo-item{
+    margin-right: 18px;
+}
+.item-photo{
+    display: block;
+    margin: 0 auto;
+    height: 217px;
+    width: 217px;
+    object-fit: contain;
+}
+.color-filter{
+    position: relative;
+    z-index: 2;
+    margin-top: -15px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 0px;
+}
+.color-item{
+    display: block;
+    height: 18px;
+    width: 18px;
+    background-color: #454545;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+}
+.color-pink{
+    background-color: #FFACA7;
+}
+.color-filter li{
+    margin-right: 10px;
+    transition: all .5s ease;
+}
+.color-active{
+    border-radius: 4px;
+    border: 2px solid #7EB105;
+}
+.after-img{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.star-rate-list{
+    margin: 7px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+.rate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.star-description{
+    font-size: 12px;
+    font-weight: bold;
+    color: #999999;
+    margin-left: 5px;
+    margin-top: 6px;
+}
+.commets{
+    display: flex;
+    align-items: center;
+}
+.more-commets{
+    margin-left: 5px;
+    font-size: 12px;
+    color: #7EB105;
+}
+.more-commets:hover{
+    text-decoration: none;
+}
+.vendor-code-wrapper{
+    margin: 6px 0 0 0;
+    font-size: 10px;
+    color:#999999;
+}
+.vendor-code{
+    color: #000000;
+}
+.status{
+    margin: 6px 0;
+    font-size: 12px;
+    color: #7EB105;
+}
+.status:before{
+    content: '';
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color:#7EB105;
+    margin-right: 8px;
+}
+.item-title{
+    margin: 0;
+}
+.item-name{
+    margin: 0;
+    font-size: 14px;
+    color:#212121;
+    font-weight: normal;
+    text-decoration: none;
+}
+.memory-list{
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
+.memory-list-item{
+    margin-right: 12px;
+}
+.more-memory{
+    font-size: 14px;
+    color:#7EB105;
+    text-decoration: none;
+    border-bottom: 1px dashed #7EB105;
+}
+.more-memory:hover{
+    color: #212121;
+    background-color: #EEFBE0;
+    border: none;
+}
+.memory-active{
+    color: #212121;
+    background-color: #EEFBE0;
+    border: none;
+}
+.price-header{
+    font-size: 10px;
+    margin: 0;
+    color: #F6731C;
+}
+.block-price{
+    display: flex;
+    align-items: flex-end;
+
+}
+.old-price{
+    font-size: 12px;
+    color: #999999;
+}
+.actual-price{
+    margin: 0;
+    margin-left: 5px;
+    font-family: 'Ubuntu';
+    font-size: 18px;
+    font-weight: bold;
+    color: #F6731C;
+}
+.bonus-price{
+    margin: 4px 0;
+    font-size: 12px;
+    color:#7EB105;
+}
+.item-footer{
+    border-top: 1px solid #EBEBEB;
+}
+.item-tooltip{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.sale-block{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.sale-photo{
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    background-image: url(/dest/img/sale.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sale-text{
+    margin-left: 8px;
+}
+.sale-title{
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    color:#212121;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sale-description{
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #F6731C;
+}
+.spec-title{
+    font-size: 14px;
+    color: #212121;
+    font-weight: bold;
+}
+.specification-list{
+    list-style-type: none;
+    padding: 0;
+}
+.specification-item{
+    font-size: 14px;
+    line-height: 19px;
+    color: #999999;
+}
+.specification-item::before{
+    content: '';
+    display: inline-block;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #999999;;
+    margin-right: 10px;
+}
+.hover-block{
+   visibility: hidden;
+   height: 0;
+}
